@@ -1,12 +1,12 @@
 function createTable() {
     //Write your code here
 	let rows = prompt("Input number of rows");
+
+	let cols = prompt("Input number of cols");
 	
 	let table = document.getElementById("myTable");
 
 	table.innerHTML = "";
-
-	let cols = rows;
 
 	for (let i = 0; i < rows; i++) {
 		let tr = document.createElement("tr");

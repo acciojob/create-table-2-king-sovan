@@ -2,7 +2,7 @@ function createTable() {
     //Write your code here
 	let rows = prompt("Input number of rows");
 
-	let cols = prompt("Input number of cols");
+	let cols = prompt("Input number of columns");
 	
 	let table = document.getElementById("myTable");
 
